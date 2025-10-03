@@ -8,4 +8,4 @@ with open("index.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
 # Renderuj HTML
-st.components.v1.html(html_content, scrolling=True)
+st.components.v1.html(html_content, height=2000, scrolling=True)
